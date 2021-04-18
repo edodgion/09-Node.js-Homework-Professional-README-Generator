@@ -13,18 +13,18 @@ a
 ## Credits
 a
 
-## Licenense
-![badge](https://img.shields.io/badge/license-MIT-brightgreen)
-This Application is MIT
+## Liceneses
+![badge](https://img.shields.io/badge/license-WordPress-brightgreen)
+This Application is WordPress
 
 ## Questions
-https://github.com/edodgion
+'https://github.com/edodgion
 
 ## Table of Content
+-[title](#title)
 -[description](#description)
 -[installation](#installation)
 -[usage](#usage)
 -[licenses](#licenses)
--[contribution](#contribution)
--[test](#test)
--[username](#username)
+-[credits](#credits)
+-[username](#questions)

@@ -45,6 +45,11 @@ const promptUser = () => {
             'WordPress'
         ]
       },
+      {
+        type: 'input',
+        name: 'username',
+        message: 'Please enter your github username for deployed github link',
+      },
        
     ]);
   };
@@ -65,21 +70,21 @@ ${answers.usage}
 ## Credits
 ${answers.credit}
 
-##Licenense
+## Liceneses
 ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
 This Application is ${answers.license}
 
 ## Questions
-https://github.com/edodgion
+https://github.com/${answers.username}
 
 ## Table of Content
+-[title](#title)
 -[description](#description)
 -[installation](#installation)
 -[usage](#usage)
 -[licenses](#licenses)
--[contribution](#contribution)
--[test](#test)
--[username](#username)
+-[credits](#credits)
+-[username](#questions)
 `;
 
 // TODO: Create a function to initialize app
