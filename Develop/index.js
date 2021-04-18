@@ -4,6 +4,8 @@ const fs = require('fs')
 const util = require('util')
 
 // TODO: Create an array of questions for user input
+const writeFileAsync = util.promisify(fs.writeFile);
+
 const promptUser = () => {
     return inquirer.prompt([
       {
@@ -36,17 +38,9 @@ const promptUser = () => {
         name: 'license',
         message: 'The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).',
       },
-        {
-          type: 'input',
-          name: 'questions',
-          message: 'Enter your GitHub Username',
-        }
        
     ]);
   };
-
-// TODO: Create a function to write README file
-const writeFileAsync = util.promisify(fs.writeFile);
 
 const generateReadMe = (answers) => 
 `# ${answers.title}
@@ -64,7 +58,7 @@ ${answers.usage}
 ${answers.credit}
 
 ## Questions
-https://github.com/${quiestions}
+https://github.com/edodgion
 
 ## Table of Contents 
 ${answers.title}
@@ -78,8 +72,8 @@ ${answers.quiestions}
 // TODO: Create a function to initialize app
 const init = () => {
     promptUser()
-      .then((answers) => writeFileAsync('GenerateREADME.md', generateReadMe(answers)))
-      .then(() => console.log('Successfully wrote to GenerateREADME.md'))
+      .then((answers) => writeFileAsync('GernerateREADME.md', generateReadMe(answers)))
+      .then(() => console.log('Successfully wrote to util'))
       .catch((err) => console.error(err));
   };
 
