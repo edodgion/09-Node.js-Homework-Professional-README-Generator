@@ -31,19 +31,27 @@ const promptUser = () => {
       {
           type: 'input',
           name: 'credit',
-          message: 'List your collaborators, third-party assets, list the creators.'
+          message: 'List your collaborators, third-party assets, list the creators.',
         },
       {
-        type: 'input',
+        type: 'list',
         name: 'license',
-        message: 'The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).',
+        message: 'The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project.',
+        choices: [
+            'MIT',
+            'Apache 2.0',
+            'GNU',
+            'Rust',
+            'WordPress'
+        ]
       },
        
     ]);
   };
 
 const generateReadMe = (answers) => 
-`# ${answers.title}
+`# Title
+${answers.title}
 
 ## Description
 ${answers.description}
@@ -57,16 +65,21 @@ ${answers.usage}
 ## Credits
 ${answers.credit}
 
+##Licenense
+![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
+This Application is ${answers.license}
+
 ## Questions
 https://github.com/edodgion
 
-## Table of Contents 
-${answers.title}
-${answers.description}
-${answers.installation}
-${answers.usage}
-${answers.credit}
-${answers.quiestions}
+## Table of Content
+-[description](#description)
+-[installation](#installation)
+-[usage](#usage)
+-[licenses](#licenses)
+-[contribution](#contribution)
+-[test](#test)
+-[username](#username)
 `;
 
 // TODO: Create a function to initialize app
