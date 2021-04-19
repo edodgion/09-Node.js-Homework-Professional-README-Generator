@@ -42,11 +42,11 @@ THEN I am taken to the corresponding section of the README
 ```
 
 ## Live Link
-<https://edodgion.github.io/09-Node.js-Homework-Professional-README-Generator>
+[My Video Demo](https://drive.google.com/file/d/1EL-BAMLYqexl32gZ7SkM2y2RtQ7ON6b_/view?usp=sharing)
+
 <https://drive.google.com/file/d/1EL-BAMLYqexl32gZ7SkM2y2RtQ7ON6b_/view?usp=sharing>
 
 ## Screen Shots/Video Demo
-[My Video Demo](https://drive.google.com/file/d/1EL-BAMLYqexl32gZ7SkM2y2RtQ7ON6b_/view?usp=sharing)
 ![](./images/readme.png)
 ![](./images/readme2.png)
 ## Credit 
