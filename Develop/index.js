@@ -55,8 +55,7 @@ const promptUser = () => {
   };
 
 const generateReadMe = (answers) => 
-`# Title
-${answers.title}
+`# Title: ${answers.title}
 
 ## Description
 ${answers.description}
@@ -78,13 +77,12 @@ This Application is ${answers.license}
 https://github.com/${answers.username}
 
 ## Table of Content
--[title](#title)
--[description](#description)
--[installation](#installation)
--[usage](#usage)
--[licenses](#licenses)
--[credits](#credits)
--[username](#questions)
+### [Title](#title) ###
+### [Description](#description) ###
+### [Installation](#installation) ###
+### [Licenses](#licenses) ###
+### [Credits](#credits) ###
+### [Username](#questions) ###
 `;
 
 // TODO: Create a function to initialize app

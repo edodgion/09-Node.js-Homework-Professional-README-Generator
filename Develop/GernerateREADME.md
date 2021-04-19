@@ -1,14 +1,13 @@
-# Title
-READ ME Generater
+# Title: READ ME GENERATOR
 
 ## Description
-Creates a professional read me 
+Description of the read me goes here
 
 ## Installation
-Description of installation here
+Steps for installation go here
 
 ## Usage
-images go here
+Images of project go here
 
 ## Credits
 Eric Dodgion
@@ -21,10 +20,9 @@ This Application is GNU
 https://github.com/edodgion
 
 ## Table of Content
--[title](#title)
--[description](#description)
--[installation](#installation)
--[usage](#usage)
--[licenses](#licenses)
--[credits](#credits)
--[username](#questions)
+### [Title](#title) ###
+### [Description](#description) ###
+### [Installation](#installation) ###
+### [Licenses](#licenses) ###
+### [Credits](#credits) ###
+### [Username](#questions) ###
