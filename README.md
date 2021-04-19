@@ -21,7 +21,7 @@ I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 ```
 
-## Acceptance Criteria
+## Criteria
 
 ```md
 GIVEN a command-line application that accepts user input
@@ -41,8 +41,13 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 
-## Screen Shots
+## Live Link
+https://edodgion.github.io/09-Node.js-Homework-Professional-README-Generator/
+https://drive.google.com/file/d/1EL-BAMLYqexl32gZ7SkM2y2RtQ7ON6b_/view?usp=sharing
 
+## Screen Shots/Video Demo
+![](./images/reamedemo.webm)
+![](./images/readme.png)
 ## Credit 
 This page was made with ❤️ by Eric Dodgion 04/18/21
 

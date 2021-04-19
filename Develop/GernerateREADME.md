@@ -1,24 +1,24 @@
 # Title
-a
+READ ME Generater
 
 ## Description
-a
+Creates a professional read me 
 
 ## Installation
-a
+Description of installation here
 
 ## Usage
-a
+images go here
 
 ## Credits
-a
+Eric Dodgion
 
 ## Liceneses
-![badge](https://img.shields.io/badge/license-WordPress-brightgreen)
-This Application is WordPress
+![badge](https://img.shields.io/badge/license-GNU-brightgreen)
+This Application is GNU
 
 ## Questions
-'https://github.com/edodgion
+https://github.com/edodgion
 
 ## Table of Content
 -[title](#title)
