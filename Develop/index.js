@@ -50,6 +50,11 @@ const promptUser = () => {
         name: 'username',
         message: 'Please enter your github username for deployed github link',
       },
+      {
+        type: 'input',
+        name: 'email',
+        message: 'Please enter your email address',
+      }
        
     ]);
   };
@@ -69,20 +74,25 @@ ${answers.usage}
 ## Credits
 ${answers.credit}
 
-## Liceneses
+## Licenese
 ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
 This Application is ${answers.license}
 
 ## Questions
 https://github.com/${answers.username}
 
+## Email
+${answers.email}
+
 ## Table of Content
 ### [Title](#title) ###
+
 ### [Description](#description) ###
 ### [Installation](#installation) ###
-### [Licenses](#licenses) ###
+### [License](#license) ###
 ### [Credits](#credits) ###
 ### [Username](#questions) ###
+### [Email](#email) ###
 `;
 
 // TODO: Create a function to initialize app

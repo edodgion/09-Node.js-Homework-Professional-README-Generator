@@ -1,28 +1,33 @@
-# Title: READ ME GENERATOR
+# Title: READ ME generator
 
 ## Description
-Description of the read me goes here
+description of project goes here
 
 ## Installation
-Steps for installation go here
+installation steps go here
 
 ## Usage
-Images of project go here
+images of project go here
 
 ## Credits
 Eric Dodgion
 
-## Liceneses
+## Licenese
 ![badge](https://img.shields.io/badge/license-GNU-brightgreen)
 This Application is GNU
 
 ## Questions
 https://github.com/edodgion
 
+## Email
+eric@eric.com
+
 ## Table of Content
 ### [Title](#title) ###
+
 ### [Description](#description) ###
 ### [Installation](#installation) ###
-### [Licenses](#licenses) ###
+### [License](#license) ###
 ### [Credits](#credits) ###
 ### [Username](#questions) ###
+### [Email](#email) ###

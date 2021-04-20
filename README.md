@@ -42,11 +42,12 @@ THEN I am taken to the corresponding section of the README
 ```
 
 ## Live Link of Video Demo
-[My Video Demo](https://drive.google.com/file/d/1EL-BAMLYqexl32gZ7SkM2y2RtQ7ON6b_/view?usp=sharing)
+[My Video Demo](https://youtu.be/uC1KuciP2rE)
 
-<https://drive.google.com/file/d/1EL-BAMLYqexl32gZ7SkM2y2RtQ7ON6b_/view?usp=sharing>
+[![My Demo](./images/demo.gif)](https://youtu.be/uC1KuciP2rE)
 
 ## Screen Shots
+![](./images/readme.png)
 ![](./images/readme.png)
 ![](./images/readme2.png)
 ## Credit 
